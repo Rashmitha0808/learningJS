@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.url_1:focus {
+  color: red;
+  font-size: 30px;
+}
+#p1 {
+  color: blue;
+}
+#p2 {
+  font-size: 30px;
+  color: red;
+}
+#p3 {
+  font-size: 20px;
+  color: pink;
+}
+
+.psudoElement {
+  font-size: 10px;
+}
+.psudoElement::after {
+  content: "bye";
+}
+.psudoElement::before {
+  content: "Rashmi";
+}
+.btn {
+  color: white;
+  background-color: blue;
+}
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 10px;
+  }
+}

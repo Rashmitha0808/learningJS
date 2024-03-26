@@ -1,0 +1,28 @@
+.parent {
+  width: 300px;
+  height: 100vh;
+
+  position: relative;
+  background-color: blue;
+}
+.child {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: peachpuff;
+}
+/* .parent {
+  position: static;
+}
+.child {
+  background-color: peachpuff;
+  position: sticky;
+  top: 0;
+} */
+.products {
+  background-color: rgb(93, 105, 105);
+}
