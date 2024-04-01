@@ -282,5 +282,96 @@
 // console.log(typeof(b), "i am num"); 
 
 
-let x = 10;
-console.log(--x)
+// let x = 10;
+// console.log(--x)
+
+// const obj1 = {
+//     name: "rashmita",
+//     age:50
+// }
+// const obj2 ={
+//     name: "john",
+//     age:10
+// }
+// obj1.name = "akash"
+// console.log(obj1.name);
+
+// const value1 = "5";
+// const value2 = 9;
+// let sum = value2 + value1;
+
+// console.log(sum);
+// console.log();
+
+// console.log('3' - ' 02 ')
+
+// console.log(25 + -"2" - false + "10")//2310 (-2)
+// var a = 1
+// var b ='1';
+// console.log(a===b);//false
+// console.log(a==b);//true
+
+// let obj1 ={name:"vineet"}
+
+// let obj2 ={name:"vineet"}
+
+// console.log(obj1 == obj2);//false (all the times it checks the address even in ==)
+// console.log(obj1 === obj2);//false (all the times it checks the address even in ==)
+
+// // myFun();
+// function myFun(){
+//     console.log("Hello");
+// }//hoisting 
+
+// // myExp();//since assign to variable and it cnt be undefined fun run
+// var myExp = function hello(){
+//     console.log("expression");
+// }
+
+// //first class can be assigned and can be passed as an arguement
+// function highFUn(fun1, fun2){
+//     fun1()
+//     fun2()
+// }
+
+// highFUn(myExp, myFun);
+
+
+// let str = "apeksha";
+// str = "neela";
+
+// let str1 = str;
+// str1 = "ap";
+// str1.replace(1,"hello");
+// console.log(str1);
+
+// let arr1 = [1,3,4,5,6];
+// arr1.map unmodified and untouched
+
+// let filteredArr = arr1.filter((data)=>data%2 !== 0).map((item)=>item*2);
+// console.log(filteredArr, "maped");
+// console.log(arr1);
+
+// let mappedArr = arr1.map((data)=>data*2)
+// console.log(mappedArr);
+
+// let mappWithMulti = arr1.map((data)=>{
+//     let storedValue;
+//     if(data%2 !== 0){
+//         return data*2;
+//     }
+//     return data;
+// })
+// console.log(mappWithMulti);
+
+// function myMap(arr){
+//     let mapArr = [];
+//     let value;
+//     for(let i = 0; i < arr.length; i++){
+//         value = arr[i]*2;
+//     }
+// }
+
+var a = 10;
+console.log(a);
+

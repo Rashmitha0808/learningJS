@@ -13,7 +13,7 @@ function startStopwatch() {
     startStopBtn.textContent = 'Stop';
     startStopBtn.removeEventListener('click', startStopwatch);
     startStopBtn.addEventListener('click', stopStopwatch);
-}
+} 
 
 function stopStopwatch() {
     clearInterval(timer);
